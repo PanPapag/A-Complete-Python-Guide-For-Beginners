@@ -1,7 +1,7 @@
 song = "O Sakis Rouvas toy Peiraia"
 
 split_song = song.split()            # argument of split specifies the delimiter
-                                     # no arguments it meands by default that delimiter is space
+                                     # in case of no arguments, delimiter is single space
 print(split_song)
 
 glue = "/"
