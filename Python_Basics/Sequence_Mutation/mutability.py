@@ -1,3 +1,5 @@
+# NOTE strings are IMMUTABLE
+
 fruit = ["banana", "apple", "cherry"]
 print("Initial fruits: ", fruit)
 
