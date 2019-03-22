@@ -7,9 +7,9 @@ tups = [('A', 3, 2),
 for tup in sorted(tups):
     print(tup)
 
-# Use same notion as above to sort a list having two parameters
+# Use same notion as above to sort a list having two parameters, represented by a tuple
 
 fruits = ['peach', 'kiwi', 'apple', 'blueberry', 'papaya', 'mango', 'pear']
-new_order = sorted(fruits, key=lambda fruit_name: (len(fruit_name), fruit_name))
+new_order = sorted(fruits, key = lambda fruit_name: (len(fruit_name), fruit_name))
 for fruit in new_order:
     print(fruit)
