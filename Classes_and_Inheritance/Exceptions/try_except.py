@@ -10,7 +10,7 @@ try:
     x = 5
     y = x/0
     print("This won't print, either")
-except:
-    print("error 2")
+except ZeroDivisionError:
+    print("Error: Division with zero!")
 
 print("continuing")
