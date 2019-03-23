@@ -12,6 +12,6 @@ print("-----sorted by price, referencing a class method-----")
 for f in sorted(L, key=Fruit.sort_priority):
     print(f.name)
 
-print("---- one more way to do the same thing-----")
+print("----one more way to do the same thing-----")
 for f in sorted(L, key=lambda x: x.sort_priority()):
     print(f.name)
