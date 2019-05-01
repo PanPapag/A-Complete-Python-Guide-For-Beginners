@@ -10,8 +10,19 @@ def quadrupleStuff(a_list):
     return list(new_seq)
 
 things = [2, 5, 9]
-print(things)
+print("Initial: ", things)
 things3 = tripleStuff(things)
-print(things3)
+print("Triple: ", things3)
 things4 = quadrupleStuff(things)
-print(things4)
+print("Quadruple: ",things4)
+
+# or all on one line
+print(list(map((lambda value: 5*value), [1, 2, 3])))
+
+#EX1 :  Using map, create a list assigned to the variable greeting_doubled
+# that doubles each element in the list lst.
+
+lst = [["hi", "bye"], "hello", "goodbye", [9, 2], 4]
+greeting_doubled = list(map(lambda value: 2*value, lst))
+print(lst)
+print(greeting_doubled)
