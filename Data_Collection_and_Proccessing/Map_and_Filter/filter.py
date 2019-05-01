@@ -17,6 +17,6 @@ print("filter: ", keep_evens([3, 4, 6, 7, 0, 1]))
 # in lst_check that have a w in them using filter.
 
 lst_check = ['plums', 'watermelon', 'kiwi', 'strawberries', 'blueberries', 'peaches', 'apples', 'mangos', 'papaya']
-filter_testing = list(filter(lambda word: w in word == True, lst_check))
+filter_testing = list(filter(lambda word: 'w' in word, lst_check))
 print(lst_check)
 print(filter_testing)
