@@ -69,7 +69,6 @@ class Bird(Pet):
         self.reduce_boredom()
 
 d1 = Dog("Astro")
-
 d1.feed()
 
 b1 = Bird('tweety', 5)
